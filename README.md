@@ -17,6 +17,10 @@ elif (op == '3'):
    print (n1,'*',n2,'=', n1*n2)
 elif (op == '4'):
    print (n1,'/',n2,'=', n1/n2)
+if n2 != 0:
+    print(n1/n2)
+else:
+    print("divisão por zero")
 
 else:
    print('Você digitou uma opção inválida!, tente novamente!')
